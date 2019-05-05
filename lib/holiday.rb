@@ -97,7 +97,6 @@ end
   end
 end
 
-require 'pry'
 
 def all_holidays_with_bbq(holiday_hash)
   bbq_include = []
