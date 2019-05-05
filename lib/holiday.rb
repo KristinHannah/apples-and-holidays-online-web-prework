@@ -91,5 +91,6 @@ def all_holidays_with_bbq(holiday_hash)
     if holiday.index("BBQ") 
       bbq_include << holiday
   end
+  return bbq_include
 end 
 end 
