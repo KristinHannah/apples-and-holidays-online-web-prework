@@ -102,7 +102,7 @@ require 'pry'
 def all_holidays_with_bbq(holiday_hash)
   bbq_include = []
   holiday_hash.each do |season, holiday|
-    if holiday_hash.has_value?("BBQ") 
+    if holiday.index("BBQ") 
        binding.pry
       bbq_include << holiday
   end
